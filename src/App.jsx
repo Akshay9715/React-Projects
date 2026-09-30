@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import RandomColor from "./components/RandomColor";
 import StarRating from "./components/star-rating";
 import ImageSlider from "./components/image-slider";
-
+import LoadMoreData from "./components/load-more-data";
 function App() {
   return (
     <>
@@ -25,6 +25,7 @@ function App() {
             />
           }
         />
+        <Route path="/load-more-data" element={<LoadMoreData/>} />
       </Routes>
     </>
   );
