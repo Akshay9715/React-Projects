@@ -31,6 +31,14 @@ const Home = () => {
             Star Rating
           </Link>
         </ul>
+        <ul>
+          <Link
+            to="/image-slider"
+            className="flex flex-col items-center text-2xl font-bold hover:text-3xl hover:m-2  m-1"
+          >
+            Image Slider
+          </Link>
+        </ul>
       </div>
     </div>
   );
